@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Movie Trivia Quiz App</title>
+    <meta name= "description" content="Test how well you know your movies and actors/actresses">
+    <link href= "main.css" rel="stylesheet" type="text/css"/>
+   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Oleo+Script&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+      <main role="main">
+        <div class="container">
+
+          <div class="quizStart">
+            <h1> How well do you know your movies?</h1>
+            <button type="submit" class="submitButton">Let's see!</button> 
+          </div>
+          
+          <div class="questionAnswerForm" style="display:none;">
+          </div>
+
+          <section id="progressbar" class="progress-bar" style="display:none;">
+            <h2> Question:   <span class='questionNumber'> </span></h2>
+            <h2> Score:   <span class='score'></span></h2>
+          </section>
+          <div id="result"></div>
+        </div>
+
+      </main> 
+
+      <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script src= "main.js"></script>
+    </body>
+</html>
